@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background : rgba(0,0,0,0.3);
+    background-position: center;
+    border-bottom: 1px solid #1d1b1b;
+}
+.wrapper{
+    display: flex;
+}
+nav .logo{
+    bottom: 80%;
+    padding:22px 20px;
+    height: 8px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    box-shadow:3px 3px 4px #1d1b1b;
+}
+nav ul{
+   list-style: none; 
+   float: right;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+nav ul li a{
+    /* background-color: #a80ba8; */
+    width: 400px;
+    line-height: 80px;
+    color: #ebcceb;
+    box-shadow:3px 3px 4px #1d1b1b;
+    text-shadow: 1px 4px 3px #050505;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+}
+
+
+section{
+    width: 100%;
+    height: 80vh;
+    background-image: url(/img/IMG-20220326-WA0086.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media screen and (max-width:760px){
+    .wrapper ul{
+        flex-direction: column;
+        margin: 0px;
+        display: wrap;
+    
+    }
+  .chilled{
+     
+      width: 200px;
+      font-size: small;
+     
+      
+  }
+}
+
+
+    
